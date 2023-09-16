@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { SolarwindAwsCdkStack } from '../lib/solarwind-aws-cdk-stack';
+import { AdminBackendCdkStack } from '../lib/admin-backend-cdk-stack.js';
 
 const app = new cdk.App();
-new SolarwindAwsCdkStack(app, 'SolarwindAwsCdkStack', {
+new AdminBackendCdkStack(app, 'AdminBackendCdkStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */

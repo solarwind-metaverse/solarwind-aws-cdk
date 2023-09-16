@@ -1,5 +1,5 @@
 {
-  "app": "npx ts-node --prefer-ts-exts bin/solarwind-aws-cdk.ts",
+  "app": "npx ts-node --prefer-ts-exts bin/admin-backend-cdk.ts",
   "watch": {
     "include": [
       "**"
